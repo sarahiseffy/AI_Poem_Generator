@@ -46,6 +46,8 @@ form {
 .poem-1 {
     padding: 35px;
     margin: auto 250px;
+    margin-top: 35px;
+    background-color: rgb(194, 214, 214);
     font-size: medium;
     font-family: 'Courier New', Courier, monospace;
 }
