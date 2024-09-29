@@ -31,8 +31,8 @@ form {
     font-family: 'Courier New', Courier, monospace;
     text-wrap: wrap;
 
-    
 }
+
 .submit-button {
     margin-left: 10px;
     background-color: black;
@@ -44,7 +44,7 @@ form {
     padding: 10px 10px;
 }
 
-.poem-1 {
+.poem {
     padding: 35px;
     margin: auto 350px;
     margin-top: 35px;
@@ -55,6 +55,20 @@ form {
     text-wrap: wrap;
     border-left-style: solid;
     
+}
+
+.hidden {
+    display: none;
+}
+
+.blink {
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
 footer {
