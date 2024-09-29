@@ -7,7 +7,7 @@ body {
 .container {
 
     margin: 120px auto;
-    max-width: 600px;
+    max-width: 500px;
 }
 header {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -44,7 +44,7 @@ form {
     background-color: black;
     color: white;
     border: none;
-    width: 20%;
+    width: 25%;
     font-size: 18px;
     border-radius: 50px;
     padding: 10px 10px;
