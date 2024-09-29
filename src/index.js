@@ -14,9 +14,10 @@ new Typewriter("#poem1", {
 function generatePoem(event) {
 event.preventDefault();
 
+let userInputElement = document.querySelector("#userInput")
 let apiKey = "47c53bba2097318c33196010f07cot74";
-let context = "You are an AI that can generate beautiful and simple four-line english poems and break each line with <br>."
-let prompt = `Generate a poem about ${instructionsInput.value}`
+let context = "You are an AI that can generate beautiful and simple four-line poem in any language the user will input and break each line with <br>."
+let prompt = `Generate a poem about ${userInput.value}`
 let apiUrl =
   `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 

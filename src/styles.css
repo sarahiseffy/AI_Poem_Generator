@@ -20,7 +20,7 @@ form {
     justify-content: center;
 }
 
-.input-1{
+.userInput {
     padding: 16px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     width: 70%;
